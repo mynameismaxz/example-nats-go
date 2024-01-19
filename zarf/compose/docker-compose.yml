@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  nats-message-broker:
+    image: nats:latest
+    restart: always
+    ports:
+      - 4222:4222
